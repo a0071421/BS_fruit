@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鮮果坊</title>
+    <meta name="description" content="鮮果坊，每日新鮮現打果汁，特殊技術保留水果營養成分，讓您營養一百分！">
+    <meta property="og:title" content="鮮果坊" />
+    <meta property="og:description" content="鮮果坊，每日新鮮現打果汁，特殊技術保留水果營養成分，讓您營養一百分！" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="./images/logo-md.svg" />
+    <link rel="apple-touch-icon" href="./images/favicon.ico">
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="/stylesheets/all.css">
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+
+        <div class="container">
+
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="d-none d-md-block" src="./images/logo-md.svg" alt="logo-md" width="300">
+                <img class="d-md-none" src="./images/logo-sm.svg" alt="logo-sm" width="130">
+            </a>
+
+
+
+            <a class="nav-link order-md-1" href="carts.html">
+                <i class="fas fa-cart-arrow-down fa-lg"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="prouct.html">鮮果汁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            登入
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <%- contents %>
+
+    <footer class="footer">
+        <div class="bg-primary subscribe py-4">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="./images/logo-nontext.png" alt="logo-nontext">
+                        <span class="text-white h5 mx-2 mb-0">訂閱你我的香甜郵件</span>
+                    </div>
+                    <div class="col-md-5 my-3 my-md-0">
+                        <form class="form">
+                            <div class="form-square form-square-icon d-flex bg-white">
+                                <label for="subscribe" class="form-icon">
+                                    <i class="fas fa-envelope fa-lg"></i>
+                                </label>
+                                <input type="email" class="w-100 form-input" id="subscribe"
+                                    aria-describedby="emailHelp">
+                                <button class="btn btn-highlight btn-lg rounded-0">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="bg-highlight">
+            <div class="container contact-link py-3">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex flex-column justify-content-between align-items-start">
+                        <img src="./images/footer-logo.svg" alt="footer-logo">
+                        <ul class="list-unstyled small my-3">
+                            <li class="">02-1234-5555</li>
+                            <li class="">
+                                <a href="goodjuice@email.com">goodjuice@email.com</a>
+                            </li>
+                            <li class="">112 台北市北投區果汁路三段666號</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 text-right">
+                        <img src="./images/goodday-drink.svg" alt="goodday-drink" class="d-none d-md-inline-block">
+                    </div>
+                </div>
+
+                <div class="row justify-content-between my-md-4">
+                    <div class="col-md-5 my-3">
+                        <div class="social-link">
+                            <a href="#">
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fab fa-line fa-2x"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center justify-content-md-end">
+                        <span>© 2020 鮮果坊 All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </footer>
+
+
+    <script src="/javascripts/vendor.js"></script>
+
+</body>
+
+</html>

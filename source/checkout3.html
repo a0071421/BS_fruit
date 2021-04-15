@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鮮果坊</title>
+    <meta name="description" content="鮮果坊，每日新鮮現打果汁，特殊技術保留水果營養成分，讓您營養一百分！">
+    <meta property="og:title" content="鮮果坊" />
+    <meta property="og:description" content="鮮果坊，每日新鮮現打果汁，特殊技術保留水果營養成分，讓您營養一百分！" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="./images/logo-md.svg" />
+    <link rel="apple-touch-icon" href="./images/favicon.ico">
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="/stylesheets/all.css">
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+
+        <div class="container">
+
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="d-none d-md-block" src="./images/logo-md.svg" alt="logo-md" width="300">
+                <img class="d-md-none" src="./images/logo-sm.svg" alt="logo-sm" width="130">
+            </a>
+
+
+
+            <a class="nav-link order-md-1" href="carts.html">
+                <i class="fas fa-cart-arrow-down fa-lg"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prouct.html">鮮果汁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            登入
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <section class="section py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form>
+                        <div class="bg-primary p-4 text-white">
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <h2 class="mb-0">發票</h2>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="progress-step w-100">
+                                        <div class="step-circle completed">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="step-circle completed">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="step-circle active"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <nav class="nav nav-pills nav-justified nav-primary mb-3">
+                                <a class="nav-item nav-link active rounded-0" href="#nav-e-invoice"
+                                    data-toggle="tab">電子發票</a>
+                                <a class="nav-item nav-link rounded-0" href="#nav-invoice" data-toggle="tab">郵寄發票</a>
+
+                            </nav>
+
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-e-invoice" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div class="form-group">
+                                        <label for="email">電子信箱</label>
+                                        <input type="email" class="form-control form-control-lg rounded-0" id="email"
+                                            placeholder="example@email.com">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="taxid"">統一編號</label>
+                                        <input type=" text" class="form-control form-control-lg rounded-0" id="taxid"
+                                            placeholder="12345678">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-invoice" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <div class="d-flex">
+                                        <label for="city">地址</label>
+                                        <div class="custom-control custom-checkbox ml-auto">
+                                            <input type="checkbox" class="custom-control-input" id="similar-address">
+                                            <label class="custom-control-label" for="similar-address">同居住地址</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <select id="city" class="form-control form-control-lg  rounded-0">
+                                                <option selected>臺北市</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <select id="section" class="form-control form-control-lg rounded-0">
+                                                <option selected>信義區</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col">
+                                            <input type="text" class="form-control form-control-lg rounded-0"
+                                                id="address" placeholder="果汁路200號">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                        <a href="success.html" class="btn btn-highlight btn-block py-3 btn-lg rounded-0">完成</a>
+                    </form>
+                </div>
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="card text-primary">
+                        <div class="card-header">
+                            <h2 class="text-center mb-0">訂單摘要</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between mb-2">
+                                <span>小計</span>
+                                <span>1140</span>
+                            </div>
+
+                            <div class="card-text d-flex justify-content-between mb-2">
+                                <span>運費</span>
+                                <span>1500</span>
+                            </div>
+
+                            <div class="card-text d-flex justify-content-between mb-2">
+                                <span class="h5 mb-0">總計</span>
+                                <span class="h5 mb-0">NT$ 2640</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="card text-primary mt-3">
+                        <div class="card-header">
+                            <h2 class="text-center mb-0">購物清單</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <div class="bg-cover"
+                                        style="background-image: url('./images/mix.jpg');height: 80px;"></div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">神秘嘉賓 (2)</h5>
+                                        <span class="card-text">NT$ 450</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <div class="bg-cover"
+                                        style="background-image: url('./images/hot.jpg');height: 80px;"></div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">熱情嫵媚 (2)</h5>
+                                        <span class="card-text">NT$ 240</span>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="bg-primary subscribe py-4">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="./images/logo-nontext.png" alt="logo-nontext">
+                        <span class="text-white h5 mx-2 mb-0">訂閱你我的香甜郵件</span>
+
+                    </div>
+                    <div class="col-md-5 my-3 my-md-0">
+                        <form class="form">
+                            <div class="form-square form-square-icon d-flex bg-white">
+                                <label for="subscribe" class="form-icon">
+                                    <i class="fas fa-envelope fa-lg"></i>
+                                </label>
+                                <input type="email" class="w-100 form-input" id="subscribe"
+                                    aria-describedby="emailHelp">
+                                <button class="btn btn-highlight btn-lg rounded-0">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="bg-highlight">
+            <div class="container contact-link py-3">
+                <div class="row justify-content-between">
+                    <div class="col-md-5 d-flex flex-column justify-content-between align-items-start">
+                        <img src="./images/footer-logo.svg" alt="footer-logo">
+                        <ul class="list-unstyled small my-3">
+                            <li class="">02-1234-5555</li>
+                            <li class="">
+                                <a href="goodjuice@email.com">goodjuice@email.com</a>
+                            </li>
+                            <li class="">112 台北市北投區果汁路三段666號</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 text-right">
+                        <img src="./images/goodday-drink.svg" alt="goodday-drink" class="d-none d-md-inline-block">
+                    </div>
+                </div>
+
+                <div class="row justify-content-between my-md-4">
+                    <div class="col-md-5 my-3">
+                        <div class="social-link">
+                            <a href="#">
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fab fa-line fa-2x"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center justify-content-md-end">
+                        <span>© 2020 鮮果坊 All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+    <script src="/javascripts/vendor.js"></script>
+</body>
+
+</html>

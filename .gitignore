@@ -1,0 +1,7 @@
+.vscode
+node_modules
+public
+bower_components
+.tmp
+# .publish cache
+.publish
